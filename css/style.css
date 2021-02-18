@@ -7,14 +7,21 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 /*Screen*/
 @import "screen/login.css";
 @import "screen/friends.css";
 @import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chat-room.css";
 
 body {
   font-family: "Open Sans", sans-serif;
   color: #2e363e;
+  font-weight: 700;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
@@ -22,4 +29,7 @@ body {
 
 .fa-cog {
   position: relative;
+}
+* {
+  box-sizing: border-box;
 }
