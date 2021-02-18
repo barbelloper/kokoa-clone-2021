@@ -1,0 +1,26 @@
+.badge {
+  background-color: tomato;
+  display: flex;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+.update {
+  display: flex;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+}
+.update__position__cog {
+  left: -5px;
+  top: -10px;
+}
+.update__position__nav__ellipsis {
+  left: 30px;
+}

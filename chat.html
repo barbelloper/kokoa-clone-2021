@@ -20,8 +20,8 @@
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
-        <i class="fas fa-wifi"></i>
-        <!--WIFI Icon-->
+        <i class="fas fa-wifi"></i
+        ><!--WIFI Icon-->
       </div>
       <div class="status-bar__column">
         <span>18:43</span>
@@ -37,9 +37,10 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
         <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
@@ -47,17 +48,20 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="friends.html">
-            <i class="fas fa-user fa-2x"></i></a>
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chat.html">
             <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-2x"></i
+            <i class="fas fa-comment fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
@@ -67,48 +71,24 @@
         </li>
       </ul>
     </nav>
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i>Friends' Names Display<i
-        class="fas fa-chevron-right fa-xs"
-      ></i>
-    </a>
-    <main class="friends-screen">
+
+    <main class="main-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
-            class="user-component__avatar user-component__avatar--xl"
+            class="user-component__avatar"
             src="https://avatars.githubusercontent.com/u/63342229?s=400&u=9e25692ff22aa626fed9102e7378ae9f8aa43598&v=4"
           />
           <div class="user-component__text">
             <h4 class="user-component__title">YoungJun</h4>
-            <!--<h5 class="user-component__subtitle">this text whatever</h5>-->
+            <h5 class="user-component__subtitle">
+              Please check My KaKao Account Info
+            </h5>
           </div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</i></span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__avatar user-component__avatar--sm"
-              src="https://avatars.githubusercontent.com/u/63342229?s=400&u=9e25692ff22aa626fed9102e7378ae9f8aa43598&v=4"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Channel
-              </h4>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-xs"></i>
-            </div>
-          </div>
+        <div class="user-component__column">
+          <span class="user-component__time">21:22</span>
+          <div class="badge">1</div>
         </div>
       </div>
     </main>
