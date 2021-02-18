@@ -172,8 +172,7 @@
 }
 
 .reply:focus-within input {
-  width: 98vw;
-  transform: translateX(-13%) translateY(-80px);
+  transform: translateX(-5%) translateY(-90px) scaleX(1.2) scaleY(1.3);
 }
 .reply:focus-within {
   transform: translateY(80px);
